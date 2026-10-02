@@ -1,0 +1,17 @@
+metodo,n,duracao_nanossegundos
+fib_rec_manual,10,79.6
+fib_rec_manual,15,682.2
+fib_rec_manual,20,5964.2
+fib_rec_manual,25,78930.8
+fib_rec_manual,28,293476
+fib_rec_manual,30,798614
+fib_rec_manual,31,1.43221e+06
+fib_rec_manual,32,2.67254e+06
+fib_rec_manual,33,4.08887e+06
+fib_rec_manual,34,7.46106e+06
+fib_rec_manual,35,1.0386e+07
+fib_rec_manual,36,1.99597e+07
+fib_rec_manual,37,2.66868e+07
+fib_rec_manual,38,5.30921e+07
+fib_rec_manual,39,7.17768e+07
+fib_rec_manual,40,1.33441e+08

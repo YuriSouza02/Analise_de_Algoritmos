@@ -1,0 +1,35 @@
+# Pastas de compilação
+build/
+cmake-build-*/
+out/
+
+# Arquivos gerados pelo CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Binários executáveis
+*.exe
+*.out
+*.app
+
+# Arquivos objeto
+*.o
+*.obj
+
+# Diretórios de dados e plots (opcional, se quiser que os dados gerados não sejam commitados)
+# data/
+# plots/
+
+# Arquivos do editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+Hanoi/log.txt

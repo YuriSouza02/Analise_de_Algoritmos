@@ -1,0 +1,29 @@
+Funções que resolvem a torre de hanoi(Recursiva) : hanoiRec (.h e .cpp)
+Arquivo que chama as funções e gera os dados (tem a main): hanoiMain.cpp
+Como compilar: g++ hanoiMain.cpp hanoiRec.cpp -o execHanoi
+
+como executar: execHanoi <min> <numberOfInstances> <step>
+
+detalhamento:
+
+A main funciona sob o pretexto de rodar a solução de hanoi varias vezes para diferentes tamanhos 
+e registrar os resultados no .csv (HanoiRecursive.csv). OS TEMPOS ESTÃO EM MILISEGUNDOS.Essa organização permite
+que múltiplas execuções e medições ocorram com apenas uma chamada de executável, poupando tempo escrevendo
+invocações.
+
+Os argumentos funcionam da seguinte forma: min será o tamanho da menor instância, 
+com number of instances sendo quantas vezes o algoritmo rodará. Step determina o incremento entre instancias.
+Assim, uma chamada execHanoi 1 5 3 seria o equivalente a fazer as sehuintes chamadas da função 
+e escrever os dados correspondentes no .csv:
+    
+    hanoiRec(1,1,2,3);
+    hanoiRec(4,1,2,3);
+    hanoiRec(7,1,2,3);
+    hanoiRec(10,1,2,3);
+    hanoiRec(13,1,2,3);
+
+observação: os 3 últimos parâmetros "1,2,3" em hanoiRec são apenas os nomes dos postes e não têm nada 
+a ver com tamanho de instâncias.
+
+observação: repare que seriam 5 chamadas , começando com tamanho 1 e ,entre duas chamadas, há 3 de
+diferença no tamanho da instância

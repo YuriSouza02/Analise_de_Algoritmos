@@ -1,0 +1,11 @@
+# comamandos necessarios com modificações
+cd build
+cmake -G "MinGW Makefiles" ..
+mingw32-make
+cd ..
+.\build\benchmark_run.exe
+
+
+# comamandos necessarios sem modificações
+.\build\benchmark_run.exe
+python visualizar_dados.py
